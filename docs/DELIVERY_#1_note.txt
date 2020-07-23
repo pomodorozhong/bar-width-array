@@ -1,0 +1,15 @@
+YousramashkoorJul 20, 10:13 AM
+
+Hi pomodorozhong,
+
+Here is your delivery. I've processed the generated barcode image through tensorflow to read the width of bars. So now you can even modify the script to use your own PNG image to generate the width.
+
+As you've requested, i'm using a pre-build package 'python-barcode' for generating barcodes from data. while working with this package I noticed a slight bug, which I've reported to the author as well. Hopefully they will get it fix soon.
+Though you can easily modify that as well from the script.
+
+- follow setup.pdf for a guide on how to run the script.
+
+Thanks again for your order! Your delivery is enclosed. If there are any problems, please let me know. I'll get back to you as soon as I can.
+
+Thanks again and have a great day! :)
+yousra
