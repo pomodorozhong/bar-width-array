@@ -1,4 +1,3 @@
-import tensorflow.keras.preprocessing.image as image
 from PIL import Image
 import numpy as np
 import barcode
@@ -24,7 +23,7 @@ def barcodeworking():
     """### Image Processing"""
 
     # img=image.load_img("regions.png",color_mode="grayscale")
-    img = image.img_to_array(img)
+    img = np.array(img)
     # CONVERTING TO FLOAT
     img = (img >= 200).astype("float")
     img = img.sum(axis=0)
